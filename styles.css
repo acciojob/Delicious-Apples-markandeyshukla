@@ -1,9 +1,24 @@
 /* your code here */
 .product{
+	background-color:green;
 	display:flex;
-	width:100%;
+	width:70%;
+	height:800px;
+	margin: 0 auto;
 }
 .product__photo{
 	display:flex;
 	width:50%;
+	height:800px;
+}
+.photo-container{
+	display:flex;
+	flex-direction:column;
+	height:650px;
+	justify-content:center;
+	align-items:center;
+}
+.photo-main{
+	height:500px;
+	width:100%
 }
